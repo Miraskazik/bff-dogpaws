@@ -42,27 +42,6 @@
     </properties>
     <dependencies>
 
-        <!-- Jersey common dependency -->
-        <dependency>
-            <groupId>org.glassfish.jersey.core</groupId>
-            <artifactId>jersey-common</artifactId>
-            <version>3.1.9</version> <!-- Použijte aktuální verzi Jersey -->
-        </dependency>
-
-        <!-- Pokud používáte HK2 (Dependency Injection pro Jersey) -->
-        <dependency>
-            <groupId>org.glassfish.hk2</groupId>
-            <artifactId>hk2-api</artifactId>
-            <version>3.0.6</version> <!-- Zkontrolujte, že používáte správnou verzi -->
-        </dependency>
-
-        <dependency>
-            <groupId>org.glassfish.jersey.core</groupId>
-            <artifactId>jersey-client</artifactId>
-            <version>3.1.9</version>
-        </dependency>
-
-
         <dependency>
             <groupId>cz.rb</groupId>
             <artifactId>project-common</artifactId>
@@ -108,26 +87,6 @@
         </dependency>
 
 
-        <!-- JAX-RS API (např. Jersey) -->
-        <dependency>
-            <groupId>org.glassfish.jersey.core</groupId>
-            <artifactId>jersey-server</artifactId>
-            <version>${jersey-server.version}</version>
-        </dependency>
-
-        <!-- https://mvnrepository.com/artifact/org.glassfish.jersey.media/jersey-media-json-binding -->
-        <dependency>
-            <groupId>org.glassfish.jersey.media</groupId>
-            <artifactId>jersey-media-json-binding</artifactId>
-            <version>${jersey.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.glassfish.jersey.media</groupId>
-            <artifactId>jersey-media-json-processing</artifactId>
-            <version>${jersey.version}</version>
-        </dependency>
-
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
@@ -141,19 +100,6 @@
             <version>${jakarta-inject.version}</version>
         </dependency>
 
-        <dependency>
-            <groupId>jakarta.ws.rs</groupId>
-            <artifactId>jakarta.ws.rs-api</artifactId>
-            <version>4.0.0</version> <!-- Nebo jinou vhodnou verzi -->
-        </dependency>
-
-        <!-- https://mvnrepository.com/artifact/jakarta.servlet/jakarta.servlet-api -->
-        <dependency>
-            <groupId>jakarta.servlet</groupId>
-            <artifactId>jakarta.servlet-api</artifactId>
-            <version>${jakarta.version}</version>
-            <scope>compile</scope>
-        </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.mapstruct/mapstruct -->
         <dependency>
