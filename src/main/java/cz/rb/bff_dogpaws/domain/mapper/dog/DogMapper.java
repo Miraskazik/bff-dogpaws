@@ -1,8 +1,8 @@
-package cz.rb.bff_dogpaws.domain.mapper;
+package cz.rb.bff_dogpaws.domain.mapper.dog;
 
 
 import cz.rb.bff_dogpaws.domain.model.DogRestResponse;
-import cz.rb.projectcommon.model.DogMessage;
+import cz.rb.projectcommon.model.dog.DogMessage;
 import org.mapstruct.Mapper;
 import org.mapstruct.ReportingPolicy;
 

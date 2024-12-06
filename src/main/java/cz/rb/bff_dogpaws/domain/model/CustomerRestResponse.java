@@ -1,22 +1,29 @@
 package cz.rb.bff_dogpaws.domain.model;
 
-import cz.rb.projectcommon.model.dog.GenderEnum;
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Builder
+import java.util.List;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class DogRestResponse {
+public class CustomerRestResponse {
+
 
     private Long id;
-    private String name;
-    private String breed;
-    private GenderEnum gender;
-    private String details;
-    private Long ownerId;
 
+    private String firstName;
+
+    private String lastName;
+
+    private String city;
+
+    private Integer price;
+
+    private String details;
+
+    private List<Long> dogsId;
 }
+

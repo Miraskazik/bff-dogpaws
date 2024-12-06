@@ -2,6 +2,7 @@ package cz.rb.bff_dogpaws.domain.service.impl;
 
 import cz.rb.bff_dogpaws.domain.messaging.DogMessenger;
 import cz.rb.bff_dogpaws.domain.model.DogRestResponse;
+import cz.rb.projectcommon.model.dog.DogMessage;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
@@ -21,5 +22,9 @@ public class DogService {
 
     public DogRestResponse getDog(final String dogName) {
         return dogMessenger.getDog(dogName);
+    }
+
+    public DogRestResponse addDog(final DogMessage dog) {
+        return dogMessenger.addDog(dog);
     }
 }

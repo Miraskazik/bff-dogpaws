@@ -1,9 +1,14 @@
 C:\Users\Loki\Documents\dogpaws\common\bff-dogpaws\src\main\java\cz\rb\bff_dogpaws\BffDogpawsApplication.java
 C:\Users\Loki\Documents\dogpaws\common\bff-dogpaws\src\main\java\cz\rb\bff_dogpaws\configuration\Configuration.java
 C:\Users\Loki\Documents\dogpaws\common\bff-dogpaws\src\main\java\cz\rb\bff_dogpaws\domain\constant\DogpawsConstant.java
-C:\Users\Loki\Documents\dogpaws\common\bff-dogpaws\src\main\java\cz\rb\bff_dogpaws\domain\mapper\DogMapper.java
-C:\Users\Loki\Documents\dogpaws\common\bff-dogpaws\src\main\java\cz\rb\bff_dogpaws\domain\mapper\GenderMapper.java
+C:\Users\Loki\Documents\dogpaws\common\bff-dogpaws\src\main\java\cz\rb\bff_dogpaws\domain\mapper\customer\CustomerMapper.java
+C:\Users\Loki\Documents\dogpaws\common\bff-dogpaws\src\main\java\cz\rb\bff_dogpaws\domain\mapper\dog\DogMapper.java
+C:\Users\Loki\Documents\dogpaws\common\bff-dogpaws\src\main\java\cz\rb\bff_dogpaws\domain\mapper\dog\GenderMapper.java
+C:\Users\Loki\Documents\dogpaws\common\bff-dogpaws\src\main\java\cz\rb\bff_dogpaws\domain\messaging\CustomerMessenger.java
 C:\Users\Loki\Documents\dogpaws\common\bff-dogpaws\src\main\java\cz\rb\bff_dogpaws\domain\messaging\DogMessenger.java
+C:\Users\Loki\Documents\dogpaws\common\bff-dogpaws\src\main\java\cz\rb\bff_dogpaws\domain\model\CustomerRestResponse.java
 C:\Users\Loki\Documents\dogpaws\common\bff-dogpaws\src\main\java\cz\rb\bff_dogpaws\domain\model\DogRestResponse.java
+C:\Users\Loki\Documents\dogpaws\common\bff-dogpaws\src\main\java\cz\rb\bff_dogpaws\domain\service\impl\CustomerService.java
 C:\Users\Loki\Documents\dogpaws\common\bff-dogpaws\src\main\java\cz\rb\bff_dogpaws\domain\service\impl\DogService.java
+C:\Users\Loki\Documents\dogpaws\common\bff-dogpaws\src\main\java\cz\rb\bff_dogpaws\rest\CustomerController.java
 C:\Users\Loki\Documents\dogpaws\common\bff-dogpaws\src\main\java\cz\rb\bff_dogpaws\rest\DogController.java

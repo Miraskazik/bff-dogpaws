@@ -1,6 +1,6 @@
-package cz.rb.bff_dogpaws.domain.mapper;
+package cz.rb.bff_dogpaws.domain.mapper.dog;
 
-import cz.rb.projectcommon.model.GenderEnum;
+import cz.rb.projectcommon.model.dog.GenderEnum;
 import org.mapstruct.Mapper;
 import org.mapstruct.ReportingPolicy;
 import org.mapstruct.ValueMapping;
